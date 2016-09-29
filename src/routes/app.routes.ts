@@ -8,7 +8,7 @@ import {ModuleWithProviders} from "@angular/core";
 
 const appRoutes: Routes = [
 
-    {path: '', HomeComponent},
+    {path: '',component: HomeComponent},
 
     {path: '**', component: PageNotFoundComponent}
 
